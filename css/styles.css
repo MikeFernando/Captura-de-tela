@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+header{
+  position: absolute;
+  background-color: #48C5CE;
+  text-align: center;
+  width: 100%;
+  color: #FFF;
+  padding: 10px;
+  box-shadow: 0px 5px 20px #48C5CE;
+}
+
+.title {
+  font-size: 26px;
+}
+
+section {
+  padding: 20px;
+  background-image: url('../css/images/people.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.formContainer {
+  max-width: 230px;
+  font-size: 15px;
+  float: right;
+  padding: 20px;
+  background-color: #FFFFFFBB;
+  margin-top: 50px;
+}
+
+.mb {
+  margin-bottom: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  color: #FFF;
+  background-color: #48C5CE;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  color: #FFF;
+  background-color: #00eeff;
+  font-weight: bold;
+  box-shadow: -1px -1px 2px 2px #00eeff;
+  transition: 0.5s;
+  text-shadow: 2px 2px #333;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  background-image: url('images/arrow.jpg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px );
+}
+
+footer {
+  background-color: #202121;
+  padding: 40px;
+  text-align: center;
+}
+
+.picture {
+  width: 196px;
+}
+
+.description {
+  display: inline-block;
+  color: #FFF;
+  max-width: 50%;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.description p, .description h3 {
+  margin-bottom: 20px;
+}
